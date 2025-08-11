@@ -11,4 +11,3 @@ graph TB
     classDef partial fill="#fef9c3",stroke="#ca8a04",stroke-width=2px,color="#713f12";
     classDef gap fill="#fecaca",stroke="#b91c1c",stroke-width=2px,color="#7f1d1d";
 ```
-
