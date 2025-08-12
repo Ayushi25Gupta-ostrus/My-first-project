@@ -1,12 +1,14 @@
 # My-first-project
 Code-flowchart conversion
 ```mermaid
-flowchart TD
-  A([Start]) --> B[Input Examination Details]
-  B --> C[Clash Detection]
-  C -->|Conflict Exists| D[Prompt Admin to Adjust Schedule]
-  D --> C
-  C -->|No Conflict| E[Timetable Generation]
-  E --> F[Display Timetable & Export Options]
-  F --> G([End])
+flowchart TB
+    subgraph Fits[**FITS** ✅]
+        F1[Timetable Creation - Manual & Automated]
+        F2[Clash Detection for Students]
+        F3[Attach Question Paper]
+    end
 
+    subgraph Gaps[**GAPS** ⚠️]
+        G1[Display All Required Fields in Timetable View]
+        G2[Validation for Unique Question Papers]
+    end
